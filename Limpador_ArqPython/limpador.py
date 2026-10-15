@@ -7,9 +7,9 @@ for i in range(1, 6):
     time.sleep(1)
     print(f"Começando em: {i}")
 
-pasta_temp = r"C:\Windows\Temp"
-pasta_temp2 = os.path.expandvars(r"%LOCALAPPDATA%\Temp")
-pasta_prefetch = r"C:\Windows\Prefetch"
+pasta_temp = Caminho do arquivo temporário
+pasta_temp2 = os.path.expandvars(Caminho do arquivo temporário)
+pasta_prefetch = Caminho do arquivo temporário
 
 arquivos_temp = os.listdir(pasta_temp)
 arquivos_temp2 = os.listdir(pasta_temp2)
@@ -63,6 +63,6 @@ for arquivo in arquivos_prefetch:
 
 
 
-print("Listagem concluída!")
+print("Tudo excluído perfeitamente")
     
 
